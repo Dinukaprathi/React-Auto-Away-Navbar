@@ -6,7 +6,10 @@ A sleek React Navbar component with automatic away detection, session timeout wh
 
 
 
-https://github.com/user-attachments/assets/23ff5249-c33f-4dcf-ae8c-c035bef7f358
+
+Uploading auto-away-navbar.mp4…
+
+
 
 
 
