@@ -1,0 +1,49 @@
+{
+  "name": "auto-away-navbar",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "A modern React navbar with auto-away detection and theme toggle.",
+  "keywords": [
+    "react",
+    "navbar",
+    "plugin",
+    "session timeout",
+    "auto-away",
+    "theme-toggle"
+  ],
+  "author": "Dinuka Prathiraja",
+  "license": "MIT",
+  "scripts": {
+   "dev": "vite",
+  "build": "vite build",
+  "build:lib": "cross-env BUILD_LIB=true vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "tailwind:init": "npx tailwindcss init -p"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.25.0",
+    "vite": "^6.3.5"
+  }
+}
